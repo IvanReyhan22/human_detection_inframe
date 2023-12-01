@@ -34,12 +34,6 @@ def main():
             cv2.waitKey(0)
             break
 
-        # channels = 1 if len(image.shape) == 2 else image.shape[2]
-        # if channels == 1:
-        #     image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
-        # if channels == 4:
-        #     image = cv2.cvtColor(image, cv2.COLOR_BGRA2BGR)
-
         # resolusi gambar
         height, width, _ = image.shape
 
